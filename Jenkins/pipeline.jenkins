@@ -1,0 +1,9 @@
+stage('Build') {
+  build 'build-dev-code'
+}
+stage('Test') {
+  build 'test-dev-code'
+}
+stage('Deploy') {
+  build 'deploy-stage'
+}
